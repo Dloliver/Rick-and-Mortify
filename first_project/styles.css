@@ -1,0 +1,125 @@
+html {
+  min-height: 100%;
+}
+
+@media (max-width: 1100px) {
+  body {
+    background: url(rickandmortysmall.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1101px) {
+  body {
+    background: url(RicknMorty.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1101px) {
+  .title {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .title {
+    font-family: "Creepster", cursive;
+    display: flex;
+    justify-content: center;
+    color: rgb(50, 205, 50);
+    font-size: 90px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  .#modal-textbox {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 600px;
+    width: 400px;
+    border-radius: 2px;
+    margin: 150px auto;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    font-size: 25px;
+    font-family: "Creepster", cursive;
+    color: rgb(50, 205, 50);
+    list-style-type: none;
+  }
+}
+.center {
+  height: 35em;
+  flex-flow: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Creepster", cursive;
+}
+
+.center input {
+  font-family: "Creepster", cursive;
+  font-size: 50px;
+  margin: 25px;
+}
+
+#openModal {
+  font-family: "Creepster", cursive;
+  font-size: 50px;
+  margin: 25px;
+}
+
+.photo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form {
+  margin: 0;
+  color: rgba(50, 205, 50, 0);
+}
+
+.name {
+  background-color: white;
+  color: rgb(50, 205, 50);
+  font-size: 45px;
+  font-family: "Creepster", cursive;
+}
+
+#modal {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  overflow: auto;
+  display: none;
+}
+
+#modal-textbox {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 600px;
+  width: 700px;
+  border-radius: 2px;
+  margin: 150px auto;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  font-size: 35px;
+  font-family: "Creepster", cursive;
+  color: rgb(50, 205, 50);
+  list-style-type: none;
+}
+
+.song {
+  position: absolute;
+  bottom: 45px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(50, 205, 50, 0.8);
+  font-family: "Creepster", cursive;
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+}
